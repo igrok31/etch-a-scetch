@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #00001a;
+    font-family: verdana;
+}
+
+button{
+    margin: 0;
+    padding: 0;
+}
+.desc {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 20%;
+    height: 50px;
+    background: #efefef;
+    text-align: center;
+    font-size: 12px;
+}
+
+.container {
+    margin: auto;
+    margin-top: 20px;
+    padding: 0;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.square {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 10px;
+    height: 10px;
+    background: white;
+}
+
+#clear{
+    float: left;
+    background: #598715;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    font-size: 19px;
+    display: inline-block;
+    text-align: center;
+    margin: -41px -79px;
+    cursor: pointer;
+}
+
+#resize {
+    float: right;
+    background: #598715;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    font-size: 19px;
+    display: inline-block;
+    text-align: center;
+    margin: -41px -89px;
+    cursor: pointer;
+}
