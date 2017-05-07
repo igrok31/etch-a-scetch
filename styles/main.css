@@ -9,6 +9,8 @@ button{
     margin: 0;
     padding: 0;
 }
+
+
 .desc {
     margin: auto;
     margin-bottom: 10px;
@@ -39,26 +41,39 @@ button{
 
 #clear{
     float: left;
-    background: #598715;
+    background: white;
     border: none;
     padding: 10px 15px;
-    color: white;
+    color: #598715;
     font-size: 19px;
     display: inline-block;
     text-align: center;
-    margin: -41px -79px;
+    margin: -41px -85px;
     cursor: pointer;
+    border: solid 2px #598715;
+}
+
+#clear:hover{
+    background: #598715;
+    color: white;
 }
 
 #resize {
     float: right;
-    background: #598715;
+    background: white;
     border: none;
     padding: 10px 15px;
-    color: white;
+    color: #598715;
     font-size: 19px;
     display: inline-block;
     text-align: center;
-    margin: -41px -89px;
+    margin: -41px -95px;
     cursor: pointer;
+    border: solid 2px #598715;
 }
+
+#resize:hover{
+    background: #598715;
+    color: white;
+}
+
